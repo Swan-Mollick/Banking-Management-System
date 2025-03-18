@@ -1,0 +1,18 @@
+﻿<Window x:Class="Bank_Management_System.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bank_Management_System"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FFBAEB9C">
+        <TextBox HorizontalAlignment="Left" Margin="178,207,0,0" TextWrapping="Wrap" Text=" EMAIL :" VerticalAlignment="Top" Width="131" FontSize="24" FontWeight="Bold" Background="#FFEE89B5"/>
+        <TextBox HorizontalAlignment="Left" Margin="178,259,0,0" TextWrapping="Wrap" Text="PASSWORD :" VerticalAlignment="Top" Width="131" Height="39" FontWeight="Bold" FontSize="22" Background="#FFEE89B5"/>
+        <PasswordBox x:Name="psw_user" HorizontalAlignment="Left" Margin="350,259,0,0" VerticalAlignment="Top" Width="247" Height="37" FontSize="20"/>
+        <TextBox x:Name="name_user" HorizontalAlignment="Left" Margin="350,207,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="247" Height="34" FontSize="20"/>
+        <Button Content="Login" HorizontalAlignment="Left" Margin="319,337,0,0" VerticalAlignment="Top" Width="115" Click="click_new_form" Height="47" FontFamily="Book Antiqua" FontSize="36" FontWeight="Bold" Background="#FF8BF6DF"/>
+        <TextBlock x:Name="txb_msg" HorizontalAlignment="Left" Margin="350,316,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="308"/>
+        <Image HorizontalAlignment="Center" Height="181" Margin="0,10,0,0" VerticalAlignment="Top" Width="740" Source="/b1.jpeg" Stretch="Fill" StretchDirection="Both"/>
+    </Grid>
+</Window>

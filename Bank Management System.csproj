@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Bank_Management_System</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="b1.jpeg" />
+    <None Remove="bank.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="b1.jpeg" />
+    <Resource Include="bank.jpg" />
+  </ItemGroup>
+
+</Project>
